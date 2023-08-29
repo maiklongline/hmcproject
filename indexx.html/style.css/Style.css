@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2? family= Anek+Latin:wght@300 & display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body {
+    font-size: 100%;
+    /* background-color: #708090; */
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: coral;
+}
+
+.inicia-imagem{
+    height: 72px;
+}
+
+.inicia-menu{
+    display:flex;
+    gap: 32px;
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.conteudo{
+    border-top: 0.7px solid 	#B0E0E6;
+    margin-bottom: 48px;
+}
+
+.conteudo-meio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-meio-escrito{
+    display:flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-meio-escrito-titulo{
+    font-family: 'Anek Latin', sans-serif;
+    font-size: 32px;
+    font-weight: 400px;
+    color: #A0522D;
+}
+
+.conteudo-meio-escrito-subtitulo{
+    font-family: arial;
+    font-size: 22px;
+    font-weight: 300px;
+}
+
+.conteudo-meio-escrito-butao{
+    background-color: 	#A52A2A;
+    width: 180px;
+    height: 65px;
+    border:none;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 20px;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.conteudo-meio-escrito-butao:hover{
+    background-color: #B0E0E6;
+}
+
+
+
+
+.conteudo-meio-imagem{
+    height: 500px;
+}
+
+.conteudo-parte{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 18px;
+
+   
+}
+
+.conteudo-parte > h1{
+    /* border-top: 0.5px solid white; */
+    padding-top: 45px;
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 300px;
+    color: #A0522D;
+    margin-bottom: 17px;
+}
+
+.conteudo-parte > li{
+    font-family: arial;
+    font-size: 18px;
+    font-weight: 400px;
+    color: black;
+    
+}
+
+
+.contentApoio{
+    width: 350px;
+    height: 300px;
+    /* background-color: coral; */
+}
+
+
+
+
+.rodape{
+    padding: 32px;
+    border-top: 0.7px solid 	#B0E0E6;
+}
+
+.rodape > img{
+    height: 48px;
+    display:block;
+    margin: 0 auto;
+}

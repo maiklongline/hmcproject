@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Cadastro</title>
+</head>
+
+    <div>
+        <h1>Cadastro de Clientes</h1>
+        <p>complete suas Informações</p>
+        <br>
+    </div>
+<form>
+    <fieldset>
+        <div>
+            <label>NOME</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+
+        <div>
+            <label>Sobrenome</label>
+            <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" id="email"> 
+        </div>
+
+        <div>
+            <label>Gênero</label>
+            <label>
+                <input type="radio" name="devweb" value="Masculino" checked>Masculino
+            </label>
+            <label>
+                <input type="radio" type="devweb" value="Feminino"> Feminino
+            </label>
+            <label>
+                <input type="radio" type="devweb" value="Outros">Outros
+            </label>
+        </div>
+        <div>
+            <label>Região</label>
+            <select id="Região">
+               <option selected disabled value="">Selecione</option>
+               <option>Sul</option>
+               <option>Leste</option>
+               <option>Centro</option>
+            </select>
+            <fieldset>
+                <div>
+                    <label>Marque uma necessidade de seu condomínio</label><br><br>
+                    <input type="checkbox" id="melhora1" name="melhora1" value="Infraestrura">
+                    <label for="melhora1">Infraestrura</label>
+                    <input type="checkbox" id="melhora1" name="melhora1" value="Administração">
+                    <label for="melhora1">Administração</label>
+                    <input type="checkbox" id="melhora1" name="melhora1" value="Influencia">
+                    <label for="melhora1">Influência</label>
+                </div>
+            </fieldset>
+           <div>
+            <br>
+            <label>Diga o por que da necessidade:</label>
+            <textarea row="6" style="width: 26em" id="necessidade" name="necessidade"></textarea>
+           </div>
+
+           <button type="submit">Concluído</button>
+
+
+
+        </div>
+</form>
+    
+</body>
+</html>
