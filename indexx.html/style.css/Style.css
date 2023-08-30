@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Anek+Latin:wght@300 & display=swap');
 
 *{
-    margin:0;
-    padding:0;
+   
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -12,11 +11,12 @@
 body {
     font-size: 100%;
     /* background-color: #708090; */
+   flex-direction: column;
 }
 
 header{
     display: flex;
-    flex-direction: row;
+
     align-items: center;
     justify-content: space-around;
     background-color: coral;
@@ -124,11 +124,20 @@ a{
 }
 
 
-.contentApoio{
+.card{
+    flex-direction: column;
+    align-items: center;
+
+
     width: 350px;
     height: 300px;
-    /* background-color: coral; */
+    background-color: lightblue;
+
+
+
 }
+
+
 
 
 
